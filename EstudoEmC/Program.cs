@@ -30,6 +30,47 @@ namespace Primeiro
 
 
             /* ------------------------------------------------------------- */
+
+            //TESTANDO INPUT E VETOR
+            Console.WriteLine("Entre com seu nome completo:");
+            string nome = Console.ReadLine();
+
+            Console.WriteLine("Quantos quartos tem na sua casa?");
+            int quarto = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Entre com o preço do produto:");
+            double produto = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Entre com seu ultimo nome, idade e altura:");
+            string[] vet = Console.ReadLine().Split(' ');
+            string ultimoNome = vet[0];
+            int idade = int.Parse(vet[1]);
+            double altura = double.Parse(vet[2]);
+
+            Console.WriteLine($"\nVocê digitou: {nome}\n{quarto}\n{produto:f2}\n{ultimoNome}\n{idade}\n{altura:f2}");
+
+            /* ------------------------------------------------------------- */
+
+            //SOMA
+            Console.WriteLine("\n\nSOMA número 1:");
+            double num1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("SOMA número 2:");
+            double num2 = double.Parse(Console.ReadLine());
+
+            double num3 = num1 + num2;
+            Console.WriteLine($"{num1} + {num2} = {num3}");
+
+            /* ------------------------------------------------------------- */
+
+            //AREA DE UM CIRCULO
+            Console.WriteLine("\n\nDigite o raio do círculo, para descobirr a área:");
+            double raio = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            double pi = 3.14159;
+            double area = pi * Math.Pow(raio, 2);
+
+            Console.WriteLine(area.ToString("F4", CultureInfo.InvariantCulture));
+
         }
     }
 }
