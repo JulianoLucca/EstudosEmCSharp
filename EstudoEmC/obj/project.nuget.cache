@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "ocSMCjtrLsuDAc8XnOCpO+MGk7/X48cK3RxPg0p4uHA0w05icDMwaeYyXKj5UNEMNCh2+NwaZvu0zgbTnMjYiA==",
+  "success": true,
+  "projectFilePath": "D:\\Projetos\\Udemy\\EstudoEmC\\EstudoEmC\\EstudoEmC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\j.lucca\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "C:\\Users\\j.lucca\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "C:\\Users\\j.lucca\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "C:\\Users\\j.lucca\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "C:\\Users\\j.lucca\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\j.lucca\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "C:\\Users\\j.lucca\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

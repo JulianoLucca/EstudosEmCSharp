@@ -1,0 +1,13 @@
+D:\Projetos\Udemy\EstudoEmC\EstudoEmC\bin\Debug\netcoreapp2.1\EstudoEmC.deps.json
+D:\Projetos\Udemy\EstudoEmC\EstudoEmC\bin\Debug\netcoreapp2.1\EstudoEmC.runtimeconfig.json
+D:\Projetos\Udemy\EstudoEmC\EstudoEmC\bin\Debug\netcoreapp2.1\EstudoEmC.runtimeconfig.dev.json
+D:\Projetos\Udemy\EstudoEmC\EstudoEmC\bin\Debug\netcoreapp2.1\EstudoEmC.dll
+D:\Projetos\Udemy\EstudoEmC\EstudoEmC\bin\Debug\netcoreapp2.1\EstudoEmC.pdb
+D:\Projetos\Udemy\EstudoEmC\EstudoEmC\obj\Debug\netcoreapp2.1\EstudoEmC.csproj.AssemblyReference.cache
+D:\Projetos\Udemy\EstudoEmC\EstudoEmC\obj\Debug\netcoreapp2.1\EstudoEmC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\Udemy\EstudoEmC\EstudoEmC\obj\Debug\netcoreapp2.1\EstudoEmC.AssemblyInfoInputs.cache
+D:\Projetos\Udemy\EstudoEmC\EstudoEmC\obj\Debug\netcoreapp2.1\EstudoEmC.AssemblyInfo.cs
+D:\Projetos\Udemy\EstudoEmC\EstudoEmC\obj\Debug\netcoreapp2.1\EstudoEmC.csproj.CoreCompileInputs.cache
+D:\Projetos\Udemy\EstudoEmC\EstudoEmC\obj\Debug\netcoreapp2.1\EstudoEmC.dll
+D:\Projetos\Udemy\EstudoEmC\EstudoEmC\obj\Debug\netcoreapp2.1\EstudoEmC.pdb
+D:\Projetos\Udemy\EstudoEmC\EstudoEmC\obj\Debug\netcoreapp2.1\EstudoEmC.genruntimeconfig.cache
