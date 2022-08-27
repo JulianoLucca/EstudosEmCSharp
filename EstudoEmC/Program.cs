@@ -53,13 +53,42 @@ namespace Primeiro
 
             //SOMA
             Console.WriteLine("\n\nSOMA número 1:");
-            double num1 = double.Parse(Console.ReadLine());
+            double som1 = double.Parse(Console.ReadLine());
             Console.WriteLine("SOMA número 2:");
-            double num2 = double.Parse(Console.ReadLine());
+            double som2 = double.Parse(Console.ReadLine());
 
-            double num3 = num1 + num2;
+            double som3 = som1 + som2;
             Console.WriteLine($"{num1} + {num2} = {num3}");
+            
+            //SUBTRACAO
+            Console.WriteLine("\n\nSUBTRAÇÃO número 1:");
+            double sub1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("SUBTRAÇÃO número 2:");
+            double sub2 = double.Parse(Console.ReadLine());
 
+            double sub3 = sub1 - sub2;
+            Console.WriteLine($"{sub1} - {sub2} = {sub3}");
+
+            /* ------------------------------------------------------------- */
+
+            //MULTIPLICACAO
+            Console.WriteLine("\n\nMultiplicação número 1:");
+            double mult1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Multiplicação número 2:");
+            double mult2 = double.Parse(Console.ReadLine());
+
+            double mult3 = mult1 * mult2;
+            Console.WriteLine($"{mult1} * {mult2} = {mult3}");
+            
+            //DIVISAO
+            Console.WriteLine("\n\nDivisão número 1:");
+            double div1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Divisão número 2:");
+            double div2 = double.Parse(Console.ReadLine());
+
+            double div3 = div1 / div2;
+            Console.WriteLine($"{div1} / {div2} = {div3}");
+            
             /* ------------------------------------------------------------- */
 
             //AREA DE UM CIRCULO
