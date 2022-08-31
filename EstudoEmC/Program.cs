@@ -11,7 +11,7 @@ namespace Primeiro
     {
         static void Main(string[] args)
         {
-           /* //TESTANDO VARIAVEIS E IMPRIMINDO
+           //TESTANDO VARIAVEIS E IMPRIMINDO
             string prod1 = "Computador", prod2 = "Mesa de escritório";
 
             byte ida = 30;
@@ -149,7 +149,7 @@ namespace Primeiro
 
             // -------------------------------------------------------------
 
-            //USANDO UMA FUNÇÃO NOVA */
+            //USANDO UMA FUNÇÃO NOVA 
             Console.WriteLine("Digite trê números: ");
             int nummaior1 = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             int nummaior2 = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
