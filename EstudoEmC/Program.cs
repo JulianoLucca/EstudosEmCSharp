@@ -11,25 +11,25 @@ namespace Primeiro
     {
         static void Main(string[] args)
         {
-            //TESTANDO VARIAVEIS E IMPRIMINDO
-             string prod1 = "Computador", prod2 = "Mesa de escritório";
+           /* //TESTANDO VARIAVEIS E IMPRIMINDO
+            string prod1 = "Computador", prod2 = "Mesa de escritório";
 
-             byte ida = 30;
-             int codigo = 5290;
-             char genero = 'M';
+            byte ida = 30;
+            int codigo = 5290;
+            char genero = 'M';
 
-             double preco1 = 2100.0, preco2 = 550.50, medida = 53.234567;
+            double preco1 = 2100.0, preco2 = 550.50, medida = 53.234567;
 
-             Console.WriteLine($"Produtos:\n" +
-                 $"{prod1}, cujo preço é $ {preco1:F2}\n" +
-                 $"{prod2}, cujo preço é $ {preco2:F2}\n\n" +
-                 $"Registro: {ida} anos de idade, código {codigo} e gênero: {genero}\n\n" +
-                 $"Medida com oito casas decimais: {medida:f8}\n" +
-                 $"Arredondado (três casa decimais): {medida:f3}\n" +
-                 $"Separador decimal invariant culture: " + medida.ToString("F3", CultureInfo.InvariantCulture) + "\n\n\n");
+            Console.WriteLine($"Produtos:\n" +
+                $"{prod1}, cujo preço é $ {preco1:F2}\n" +
+                $"{prod2}, cujo preço é $ {preco2:F2}\n\n" +
+                $"Registro: {ida} anos de idade, código {codigo} e gênero: {genero}\n\n" +
+                $"Medida com oito casas decimais: {medida:f8}\n" +
+                $"Arredondado (três casa decimais): {medida:f3}\n" +
+                $"Separador decimal invariant culture: " + medida.ToString("F3", CultureInfo.InvariantCulture) + "\n\n\n");
 
 
-           // -------------------------------------------------------------
+            // -------------------------------------------------------------
 
             //TESTANDO INPUT E VETOR
             Console.WriteLine("Entre com seu nome completo:");
@@ -49,7 +49,7 @@ namespace Primeiro
 
             Console.WriteLine($"\nVocê digitou: {nome}\n{quarto}\n{produto:f2}\n{ultimoNome}\n{idade}\n{altura:f2}");
 
-           // ------------------------------------------------------------- 
+            // ------------------------------------------------------------- 
 
             //SOMA
             Console.WriteLine("\n\nSOMA número 1:");
@@ -59,7 +59,7 @@ namespace Primeiro
 
             double som3 = som1 + som2;
             Console.WriteLine($"{som1} + {som2} = {som3}");
-            
+
             //SUBTRACAO
             Console.WriteLine("\n\nSUBTRAÇÃO número 1:");
             double sub1 = double.Parse(Console.ReadLine());
@@ -79,7 +79,7 @@ namespace Primeiro
 
             double mult3 = mult1 * mult2;
             Console.WriteLine($"{mult1} * {mult2} = {mult3}");
-            
+
             //DIVISAO
             Console.WriteLine("\n\nDivisão número 1:");
             double div1 = double.Parse(Console.ReadLine());
@@ -88,7 +88,7 @@ namespace Primeiro
 
             double div3 = div1 / div2;
             Console.WriteLine($"{div1} / {div2} = {div3}");
-            
+
             // ------------------------------------------------------------- 
 
             //AREA DE UM CIRCULO
@@ -107,7 +107,7 @@ namespace Primeiro
             Console.WriteLine("\n\nDigite um número inteiro para verificar se é negativo ou não:");
             int verifNumNegativo = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            if (verifNumNegativo < 0 )
+            if (verifNumNegativo < 0)
             {
                 Console.WriteLine("NEGATIVO");
             }
@@ -119,7 +119,7 @@ namespace Primeiro
             //
             Console.WriteLine("\n\nDigite um número para o sistema verificar se é par ou impar:");
             int verifNumParImpar = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-           
+
 
             if (verifNumNegativo % 2 == 0)
             {
@@ -137,7 +137,7 @@ namespace Primeiro
             Console.WriteLine("\nSegundo");
             int verifNumMult2 = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-           
+
             if (verifNumMult1 % verifNumMult2 == 0 || verifNumMult2 % verifNumMult1 == 0)
             {
                 Console.WriteLine($"MULTIPLO");
@@ -147,8 +147,39 @@ namespace Primeiro
                 Console.WriteLine($"NÃO SÃO MULTIPLO");
             }
 
+            // -------------------------------------------------------------
 
+            //USANDO UMA FUNÇÃO NOVA */
+            Console.WriteLine("Digite trê números: ");
+            int nummaior1 = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            int nummaior2 = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            int nummaior3 = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            double resultado = Maior(nummaior1, nummaior2, nummaior3);
+
+            Console.WriteLine("Maior = " + resultado);
+        }
+
+        static int Maior(int a, int b, int c) { 
+           
+            int maior;
+            
+            if(a > b && a > c)
+            {
+                maior = a;
+            }
+            else if(b > c)
+            {
+                maior = b;
+            }
+            else
+            {
+                maior = c;
+            }
+            return maior;
+           
 
         }
+
     }
 }
