@@ -149,7 +149,7 @@ namespace Primeiro
 
             // -------------------------------------------------------------
 
-            //USANDO UMA FUNÇÃO NOVA 
+            /*//USANDO UMA FUNÇÃO NOVA 
             Console.WriteLine("Digite trê números: ");
             int nummaior1 = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             int nummaior2 = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
@@ -157,7 +157,7 @@ namespace Primeiro
 
             double resultado = Maior(nummaior1, nummaior2, nummaior3);
 
-            Console.WriteLine("Maior = " + resultado);
+            Console.WriteLine("Maior = " + resultado);*/
         }
 
         static int Maior(int a, int b, int c) { 
